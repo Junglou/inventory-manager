@@ -57,10 +57,10 @@ const ProfilePage = () => {
 
           <div className="mt-4 text-center space-y-2">
             <p className="text-lg">
-              <strong>👤 Username:</strong> {authUser.username || "Chưa có tên"}
+              <strong>👤 Username:</strong> {authUser.username || "Name not provided"}
             </p>
             <p className="text-lg">
-              <strong>📧 Email:</strong> {authUser.email || "Chưa có email"}
+              <strong>📧 Email:</strong> {authUser.email || "Email not provided"}
             </p>
             <p className="text-lg">
               <strong>🎓 Role:</strong> {"Người dùng"}
